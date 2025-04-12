@@ -1,0 +1,11 @@
+html {
+  --size: 10vh;
+}
+
+.point {
+  width: var(--size);
+  height: var(--size);
+  background-color: black;
+  border-radius: var(--size);
+  position: absolute;
+}
